@@ -51,6 +51,6 @@ commands:
       commandLine: "mkdir /home/user/.continue && cp /projects/cde-ollama-continue/continue-config.json /home/user/.continue/config.json"
 events:
   postStart:
-    - pullmodel: llama3 LLM
-    - pullautocompletemodel: starcoder2 LLM
-    - copyconfig: "continue-config.json"
+    - pullmodel
+    - pullautocompletemodel
+    - copyconfig
