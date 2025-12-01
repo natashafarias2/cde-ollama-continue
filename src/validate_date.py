@@ -1,7 +1,7 @@
 import re
 
 def validate_date(date):
-    pattern = r"\b(0?[1-9]|1[012])[-/( ](0?[1-9]|[12][0-9]|3[01])[/- ](\d{4})\b"
+    pattern = r"\b(0?[1-9]|1[0-2])[\/\-\s](0?[1-9]|[12][0-9]|3[01])[\/\-\s](\d{4})\b"
     if re.match(pattern, date):
         return True
     else:
