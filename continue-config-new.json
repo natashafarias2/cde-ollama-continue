@@ -3,7 +3,7 @@
     {
       "title": "On-prem Llama3-8b",
       "model": "llama3:8b",
-      "apiBase": "http://0.0.0.0:11434",
+      "apiBase": "http://127.0.0.1:36237",
       "provider": "ollama"
     }
   ],
